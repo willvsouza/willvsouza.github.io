@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Mota</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/url2.png"/>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/logo.png" alt="logo">
+            <h2>Olá,</h2>
+            <h1 class="title-green">Sou Gustavo Mota</h1>
+            <p>Estudante de Sistemas de Informação.</p>
+            <button onclick="window.open('https://api.whatsapp.com/send?phone=5532988488007')">Entre em contato</button>
+        </div>
+    </header>
+
+    <nav>
+        <img src="../assets/logoGustavo.png" alt="logo">
+        <ul>
+            <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+            <a href="#portfolio"><i data-feather="briefcase"></i>Portfólio</a>
+            <a href="#audio"><i data-feather="image"></i>Áudio</a>
+            <a href="#animacao"><i data-feather="list"></i>Animação</a>
+        </ul>
+    </nav>
+    <!-- Sobre mim -->
+    <section id="aboutme" class="about-me">
+        <div class="container">
+            <h1 class="title-green">Sobre mim</h1>
+            <p>Tenho 25 anos de idade, comecei minha experiência acadêmica em Física e tive a oportunidade de conhecer mais a fundo a área de Sistemas de Informação onde me encontro atualmente. Sou entusiasta por UX/UI e procuro estar sempre atendo às novas tecnologias no mercado.
+            </p>
+        </div>
+        <div class="img-container">
+            <div class="line green"></div>
+            <div class="line purple"></div>
+            <img src="../assets/Gustavo.png" alt="foto Gustavo Mota">
+        </div>
+    </section>
+    <!-- Portfólio -->
+    <section id="portfolio" class="portfolio">
+        <br><br><br>
+        <h1 class="title-green">Portfólio</h1>
+        <div class="portfolio-container">
+            <a href="https://www.canva.com/design/DAFS3RdmG4A/LnucHlXvW32ihN2vtV4sDw/view?utm_content=DAFS3RdmG4A&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
+            <div class="portfolio-card">
+                
+                <img src="assets/servicos-de-suporte.png" alt="Ýcone de suporte">
+                <h2>Acesse ao meu portfólio</h2>
+                <p>E conheça mais sobre mim e o meu trabalho.</p>
+                
+            </div>
+            </a>
+        </div>
+    </section>
+    <!-- Ýudio -->
+    <section id="audio" class="portfolio">
+        <br><br><br>
+        <h1 class="title-green">Áudio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <div class="img-container">
+                    <div class="line green"></div>
+                    <audio controls>
+                        <source src="../media/audio-gustavo_rayane.mpeg" type="audio/mpeg">
+                    </audio>
+                </div>
+                <div class="language-container">
+                    <ul>
+                        <li>Rayne</li>
+                        <li>Gustavo</li>
+                    </ul>
+                </div>
+                <p><b>Conto de Luis Fernando Veríssimo</b></p>
+            </div>
+        </div>
+    </section>
+    <!-- Animação -->
+    <section id="animacao" class="portfolio">
+        <br><br><br>
+        <h1 class="title-green">Animação</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <div class="img-container">
+                    <div class="line green"></div>
+                        <video width="320" height="240" controls="controls">
+                            <source src="../media/animacao-gustavo_rayane.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                            <embed width="320" height="240" src="../media/animacao-gustavo_rayane.mp4">
+                            </object>
+                        </video>
+                    </div>
+                <div class="language-container">
+                    <ul>
+                        <li>Rayne</li>
+                        <li>Gustavo</li>
+                    </ul>
+                </div>
+                <p><b>Autoria própria</b></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made by Queer Team - 2023</p>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>

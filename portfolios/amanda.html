@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amanda Ribeiro</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="assets/url2.png"/>
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="assets/logo.png" alt="logo">
+            <h2>Olá,</h2>
+            <h1 class="title-green">Sou Amanda Ribeiro</h1>
+            <p>Estudante de Sistemas de Informação.</p>
+            <button onclick="window.open('https://api.whatsapp.com/send?phone=5532988488007')">Entre em contato</button>
+        </div>
+    </header>
+
+    <nav>
+        <img src="../assets/logoAmanda.png" alt="logo">
+        <ul>
+            <a href="#aboutme"><i data-feather="user"></i>Sobre mim</a>
+            <a href="#portfolio"><i data-feather="briefcase"></i>Portfólio</a>
+            <a href="#audio"><i data-feather="image"></i>Áudio</a>
+            <a href="#animacao"><i data-feather="list"></i>Animação</a>
+        </ul>
+    </nav>
+    <!-- Sobre mim -->
+    <section id="aboutme" class="about-me">
+        <div class="container">
+            <h1 class="title-green">Sobre mim</h1>
+            <p>Tenho 25 anos, sou analista de qualidade de software e busco aprimorar meus conhecimentos na área da tecnologia, além de buscar aperfeiçoamento pessoal e profissional. Sou uma pessoa organizada, detalhista e curiosa. Tenho disposição para aprender coisas novas e facilidade com comunicação.
+            </p>
+        </div>
+        <div class="img-container">
+            <div class="line green"></div>
+            <div class="line purple"></div>
+            <img src="../assets/Amanda2.png" alt="foto William Vieira">
+        </div>
+    </section>
+    <!-- Portfólio -->
+    <section id="portfolio" class="portfolio">
+        <br><br><br>
+        <h1 class="title-green">Portfólio</h1>
+        <div class="portfolio-container">
+            <a href="https://www.canva.com/design/DAFSTi6Q2X8/zuYFn7A1d8Cm2_w3gmLiDQ/view?utm_content=DAFSTi6Q2X8&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" target="_blank">
+            <div class="portfolio-card">
+                
+                <img src="assets/servicos-de-suporte.png" alt="Ýcone de suporte">
+                <h2>Acesse ao meu portfólio</h2>
+                <p>E conheça mais sobre mim e o meu trabalho.</p>
+                
+            </div>
+            </a>
+        </div>
+    </section>
+    <!-- Áudio -->
+    <section id="audio" class="portfolio">
+        <br><br><br>
+        <h1 class="title-green">Áudio</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <div class="img-container">
+                    <div class="line green"></div>
+                    <audio controls>
+                        <source src="../media/audio-amanda_lucas.mp3" type="audio/mp3">
+                    </audio>
+                </div>
+                <div class="language-container">
+                    <ul>
+                        <li>Amanda</li>
+                        <li>Lucas</li>
+                    </ul>
+                </div>
+                <p><b>Conto de autor desconhecido</b></p>
+            </div>
+        </div>
+    </section>
+    <!-- Animação -->
+    <section id="animacao" class="portfolio">
+        <br><br><br>
+        <h1 class="title-green">Animação</h1>
+        <div class="portfolio-container">
+            <div class="portfolio-card">
+                <div class="img-container">
+                    <div class="line green"></div>
+                        <video width="320" height="240" controls="controls">
+                            <source src="../media/animacao-amanda_lucas_william.mp4" type="video/mp4">
+                            <object data="" width="320" height="240">
+                            <embed width="320" height="240" src="../media/animacao-amanda_lucas_william.mp4">
+                            </object>
+                        </video>
+                    </div>
+                <div class="language-container">
+                    <ul>
+                        <li>Amanda</li>
+                        <li>Lucas</li>
+                        <li>William</li>
+                    </ul>
+                </div>
+                <p><b>Autoria própria</b></p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Made by Queer Team - 2023</p>
+    </footer>
+    <script>
+        feather.replace()
+    </script>
+</body>
+
+</html>
